@@ -1,0 +1,304 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(244, 237, 237);
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Nav bar: */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8%;
+    padding-left: 3%;
+    background-color: black;
+    height: 60px;
+}
+
+.header-h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    font-size: 21px;
+}
+
+/* Links:*/
+
+.nav-a:link {
+    color: rgb(244, 237, 237);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-a:active {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-a:visited {
+    color: rgb(244, 237, 237);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* The home page:*/
+
+
+.home-img {
+    width: 90%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.para-container-container {
+    display: flex;
+    justify-content: center;
+}
+
+.para-container {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.section-one {
+    flex: 1;
+}
+.section-two {
+    flex: 1;
+}
+.section-three {
+    flex: 1;
+}
+
+.home-h1-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+    margin-top: 50px;
+}
+
+.home-h2 {
+    margin-bottom: 15px;
+}
+
+/* Footer: */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    color: rgb(244, 237, 237);
+    height: 40px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Register page: */
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+}
+
+form {
+    margin-top: 8%;
+    border: none;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.times {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.tell {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: white;
+    margin-top: 12px;
+    /* color: white; */
+    padding: 1px 9px 1px 9px;
+    border: solid 1px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.label-goals {
+    margin-bottom: 8px;
+}
+
+.label-tell {
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.checkbox-div {
+    display: flex;
+
+}
+
+.form-h1 {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+/* Contact page: */
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.contacts-h3 {
+    margin-bottom: 15px;
+}
+
+.contacts-span {
+    font-weight: 200;
+    margin-left: 7px;
+}
+
+.contact-a:link {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.contact-a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contact-a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contact-a:visited {
+    color: rgb(29, 29, 29);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.other-gyms-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.contact-h1 {
+    margin-bottom: 20px;
+}
+
+/* About page: */
+
+.about-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: scroll;
+}
+
+.about-img {
+    width: 300px;
+}
+
+.about-h1 {
+    margin-bottom: 20px;
+}
+
+.images-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.images-bottom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
